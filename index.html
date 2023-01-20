@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 6 CSC 310 Project</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<!-- ------------------------------------NAV BAR--------------- -->
+        <nav id="home" class="nav_bar">
+            <a href="#home">Home</a>
+            <a href="#calculator">Calculator</a>
+            <a href="#members">Members</a>
+            <a href="#join">Join</a>
+        </nav>
+
+<!-----------------------INTRO-----------------------------  -->
+        <section >
+            <div class="home_items">
+                <p> GROUP 6 </p>
+                <p> SIMPLE CALCULATOR</p>
+            </div>
+        </section>
+
+
+<!-- --------------------------------CALCULATOR----------------------------- -->
+        <section id="calculator">
+            <table class="calculator" >
+                <tr>
+                    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+    
+                    <!-- clearScreen() function clears all the values -->
+                    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+                </tr>
+                <tr>
+                    <!-- display() function displays the value of clicked button -->
+                    <td> <input type="button" value="1" onclick="display('1')" /> </td>
+                    <td> <input type="button" value="2" onclick="display('2')" /> </td>
+                    <td> <input type="button" value="3" onclick="display('3')" /> </td>
+                    <td> <input type="button" value="/" onclick="display('/')" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="4" onclick="display('4')" /> </td>
+                    <td> <input type="button" value="5" onclick="display('5')" /> </td>
+                    <td> <input type="button" value="6" onclick="display('6')" /> </td>
+                    <td> <input type="button" value="-" onclick="display('-')" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="7" onclick="display('7')" /> </td>
+                    <td> <input type="button" value="8" onclick="display('8')" /> </td>
+                    <td> <input type="button" value="9" onclick="display('9')" /> </td>
+                    <td> <input type="button" value="+" onclick="display('+')" /> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="." onclick="display('.')" /> </td>
+                    <td> <input type="button" value="0" onclick="display('0')" /> </td>
+    
+                    <!-- calculate() function evaluates the mathematical expression -->
+                    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
+                    <td> <input type="button" value="*" onclick="display('*')" /> </td>
+                </tr>
+    
+            </table>
+
+            <a href="#home" class="top_c"> <button> TOP </button> </a>
+
+        </section>
+
+<!-- --------------------MEMBERS--------------------------------------------- -->
+        <section id="members">
+            <div class="testRow">
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>EKUMA CHIDINMA</h4>
+                            <small>chidinma.ekuma@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                <p>  <br> 
+                    Matric No : 20CG028074 <br>
+                    Reg No:2000835 <br>
+                    Department: Computer and Information Sciences <br>
+                    Programme: Computer Sciences <br>
+                    Level: 300 Level <br>
+                </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>AHANONU PRINCESS</h4>
+                            <small>princess.ahanonu@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CG028039 <br>
+                        Reg No:2002737 <br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Computer Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>UMUKORO OGHENEKEVWE SOPHIA</h4>
+                            <small>oghenekevwe.umukoro@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CG028143 <br>
+                        Reg No:2000551 <br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Computer Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>KEYAMO ANTHONIA</h4>
+                            <small>keyama.anthonia@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CG028095<br>
+                        Reg No:2000193 <br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Computer Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>OSIKOYA MUREWA</h4>
+                            <small>osikoya.murewa@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CG028132 <br>
+                        Reg No:2000 <br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Computer Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>NWACHUKWU-SUCCESS PRECIOUS</h4>
+                            <small>nwachukwu.success@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CH028174 <br>
+                        Reg No:<br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Management and Information Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <div class="testColumn">
+                    <div class="user">
+                        <div class="user-info">
+                            <h4>OSIATOMA CHANTELLE</h4>
+                            <small>chantelle.osiatoma@stu.cu.edu.ng</small>
+                        </div>
+                    </div>
+                    <p>  <br> 
+                        Matric No : 20CH028182 <br>
+                        Reg No:2001410 <br>
+                        Department: Computer and Information Sciences <br>
+                        Programme: Management and Information Sciences <br>
+                        Level: 300 Level <br>
+                    </p>
+                </div>
+
+                <a href="#home" class="top_m"> <button> TOP </button> </a>
+
+        </section>
+
+<!-- ---------------------------JOIN------------------------------ -->
+        <section id="join">
+            <div class="join">
+                <form id="details" oninput="store.value= T1.value+ T2.value+ T3.value+ T4.value+ T5.value+ T6.value"> 
+                    <h1>INFO</h1>
+                    <p>First Name: <input type = "text" name = "T1" size ="30">
+                    <p>Last Name: <input type = "text" name = "T2" size ="30">
+                    <p>Reg no: <input type = "text" name ="T3" size ="30"></p>
+                    <p>Matric no: <input type ="text" name ="T4" size ="30" ></p>
+                    <p>GitHub account: <input type="text" name= "T5" size = "30"></p>
+                    <p>Email: <input type ="text" name ="T6" size ="30"></p> <br>
+                    <input type="submit" style="color:#191b28; font-size: 25px;background-color: #8A9A5B;">
+                
+    
+                <br> Output is: <output name="store" for="T1 T2 T3 T4 T5 T6"></output>
+            </form>
+    
+            <output form="details "></output>
+            </div>
+
+            <a href="#home" class="top_j"> <button> TOP </button> </a>
+        </section>
+
+
+        <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
